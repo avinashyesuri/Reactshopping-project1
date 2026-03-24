@@ -3,30 +3,29 @@ import React from 'react'
 const Header = () => {
   return (
     <div className='headerSection'>
-        <div className='Left'>
+        <div className="left">
             <div className="title">
-                <h2>Twowayproject</h2>
+                <h2>Shopping Mall</h2>
             </div>
         </div>
-        <div className="Center">
+        <div className="center">
             <ul>
-                <li>Women</li>
+                <li>Woman</li>
                 <li>Men</li>
                 <li>Children</li>
-                <li>fashion</li>
-                <li>electronics</li>
+                <li>Beauty</li>
             </ul>
-        </div>
-         <div className="search">
-           <input type = "text"  placeholder='search.... .' />
 
         </div>
+        <div className="search">
+            <input type="text" placeholder='Search...' />
+        </div>
         <div className="right">
-            <div className="Signin">
-                Sign/Signup
+            <div className="signin">
+                Signin / Signup
             </div>
             <div className="cart">
-                Cart Box
+                Cart
             </div>
         </div>
     </div>
