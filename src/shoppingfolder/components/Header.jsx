@@ -14,6 +14,8 @@ const Header = () => {
                 <li>Men</li>
                 <li>Children</li>
                 <li>Beauty</li>
+                <li>Electronics</li>
+                <li>Home & Living</li>
             </ul>
 
         </div>
